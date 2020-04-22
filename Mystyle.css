@@ -1,25 +1,27 @@
 html{
-  scroll-behavior: smooth;
-}
-
-
-.hero-image {
-  background-image: url("Assets/Tools.jpg");
-  background-color: #cccccc;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-
-  
+    scroll-behavior: smooth;
 }
 
 h2.ontop {
-  position: relative;
+    position: relative;
 }
 
-img {
-  border-radius: 90%;
+.img_Profile {
+    border-radius: 90%;
 }
 
+.card_wood
+{
+    background-image: url(Assets/PlainWood.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: relative; 
+    background-size: cover; 
+    background-blend-mode:luminosity; 
+}
+
+.mySlides 
+{
+    display:none;
+}
